@@ -5,4 +5,4 @@
 - name: Add Ansible repo
   apt_repository: repo='ppa:ansible/ansible' state=present
 - name: Install Ansible
-  apt: package=ansible
+  apt: package=ansible state=latest
